@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nafilas 2024</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome</h1>
+        <div class="center">
+            <img src="Nafilas 2024_transparent.png" alt="Nafilas 2024 logo" class="logo">
+
+        </div>
+    </header>
+    <main class="container">
+        <div class="form-box">
+            <div class="form-container box">
+                <label for="day">Choose the night of Nafila 1-30:</label>
+                <select id="day" name="day">
+                    <option value="">Choose a night</option>
+                </select>
+                <button id="submit">Submit</button>
+            </div>
+        </div>
+        <div id="result" class="result-container">
+            <p>Nafilas for the night <span id="selected-day"></span>:</p>
+            <ul id="nafilas-info"></ul>
+        </div>
+    </main>
+    <script src="script.js" defer></script>
+</body>
+</html>
